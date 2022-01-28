@@ -1,14 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge"> -->
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <link rel="stylesheet" href="./main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Roboto:ital,wght@0,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- <link rel="stylesheet" href="/menu.css"> -->
     <title>Binary Studio</title>
-</head>
-<body>
-    <header>
-    <h1><a href="./logo.png">Logo</a></h1>
-</header>
+  </head>
+  <body>
+    <div class="logo">
+      <a href="#"><img src="./img/logo.png" alt="logo" height="60px" /></a>
+    </div>
+    <div class="menu-toggle">
+      <input type="checkbox" class="menu" />
+
+      <div class="avatar-container">
+        <div class="avatar round"><span>V</span></div>
+      </div>
+
+      <ul class="sub-menu">
+        <a href="#"><li class="user">Viktoriia Shyrokova</li></a>
+        <svg height="3" width="205">
+          <line
+            x1="25"
+            y1="0"
+            x2="205"
+            y2="0"
+            style="stroke: rgb(255, 0, 0); stroke-width: 3"
+          />
+        </svg>
+        <a href="#"><li class="user-menu">Profile</li></a>
+        <a href="#"><li class="user-menu">Log out</li></a>
+      </ul>
+    </div>
+
+    <main>
+      <img src="/img/404-smile.png" alt="404" width="50%" />
+      <h1>404</h1>
+      <p>Grats. You broke it.</p>
+    </main>
+
+    <div class="notes">
+      <div class="err">
+        <h3>Error</h3>
+        <p>Something went wrong.</p>
+        <p>Please try again later.</p>
+      </div>
+      <div class="succ">
+        <h3>Success</h3>
+        <p>Profile was updated.</p>
+      </div>
+      <div class="warn">
+        <h3>Warning</h3>
+        <p>Deadline is coming</p>
+      </div>
+    </div>
   </body>
 </html>
