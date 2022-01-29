@@ -155,13 +155,11 @@ body {
 }
 
 .sub-menu a {
-    display: block;
+  display: block;
   text-decoration: none;
   cursor: pointer;
-  /* color: #232323;
-  
-  transition: color 0.3s ease; */
-}
+  color: #232323;
+  }
 
 .sub-menu a:hover {
     color: #f79a16;
