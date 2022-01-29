@@ -11,42 +11,46 @@
       href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Roboto:ital,wght@0,400;1,700&display=swap"
       rel="stylesheet"
     />
-    <!-- <link rel="stylesheet" href="/menu.css"> -->
-    <title>Binary Studio</title>
+   <title>Binary Studio</title>
   </head>
   <body>
-    <div class="logo">
-      <a href="#"><img src="./img/logo.png" alt="logo" height="60px" /></a>
-    </div>
-    <div class="menu-toggle">
-      <input type="checkbox" class="menu" />
+      <!-- =======================HEADER====================== -->
+        <div class="logo">
+                <a href="#"><img src="./img/logo.png" alt="logo" height="60px" /></a>
+        </div>
+<!------------------------------- MENU begins------------------------------------ -->
+        <div class="menu-toggle">
+            <input type="checkbox" class="menu" />
+<!-- -------------------------------AVATAR------------------ -->
+                <div class="avatar-container">
+                    <div class="avatar round"><span>V</span></div>
+                </div>
+<!-- -------------------------------AVATAR ENDS------------- -->
+            <ul class="sub-menu">
+                <a href="#"><li class="user">Viktoriia Shyrokova</li></a>
+                <svg height="3" width="205">
+                <line
+                    x1="30"
+                    y1="0"
+                    x2="205"
+                    y2="0"
+                    style="stroke: #a9b1be; stroke-width: 3"
+                />
+                </svg>
+                <a href="#"><li class="user-menu">Profile</li></a>
+                <a href="#"><li class="user-menu">Log out</li></a>
+            </ul>
+        </div>
+<!------------------------------- MENU ends------------------------------------ -->
 
-      <div class="avatar-container">
-        <div class="avatar round"><span>V</span></div>
-      </div>
-
-      <ul class="sub-menu">
-        <a href="#"><li class="user">Viktoriia Shyrokova</li></a>
-        <svg height="3" width="205">
-          <line
-            x1="30"
-            y1="0"
-            x2="205"
-            y2="0"
-            style="stroke: #a9b1be; stroke-width: 3"
-          />
-        </svg>
-        <a href="#"><li class="user-menu">Profile</li></a>
-        <a href="#"><li class="user-menu">Log out</li></a>
-      </ul>
-    </div>
+<!-- =======================MAIN BLOCK=================================== -->
 
     <main>
       <img src="./img/smile.png" alt="404" width="50%"/>
       <h1>404</h1>
       <p>Grats. You broke it.</p>
     </main>
-
+<!-- ============================NOTES BLOCK=================================== -->
     <div class="notes">
       <div class="err">
         <h3>Error</h3>
@@ -57,6 +61,7 @@
         <h3>Success</h3>
         <p>Profile was updated.</p>
       </div>
+<!-- ----------------some additional button------------------------- -->
       <!-- <div class="warn">
         <h3>Warning</h3>
         <p>Deadline is coming</p>
