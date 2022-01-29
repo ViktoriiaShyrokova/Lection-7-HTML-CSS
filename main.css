@@ -208,18 +208,21 @@ main {
   text-align: center;
   align-self: center;
 }
+main img {
+margin-top: -15px;
+}
 
 main h1 {
   font-family: "Indie Flower", cursive;
   font-size: 180px;
   color: #f79a16;
-  line-height: 180px;
+  line-height: 100px;
 }
 
 main p {
   padding: 0 15px;
   font-family: "Indie Flower", cursive;
-  font-size: 70px;
+  font-size: 50px;
   font-weight: bold;
 }
 
