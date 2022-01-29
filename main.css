@@ -91,7 +91,7 @@ body {
     right: 100px;
     top: 0;
     
-    background-image: url(./img/bell-icon.svg);
+    background-image: url(./img/bellIcon.svg);
     background-size: 75%;
     background-position: center;
     opacity: 0.6;
